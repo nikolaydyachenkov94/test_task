@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Тестовое задание</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="contact__left">
+          <span class="contact__span contact__span-first">Reduslim</span>
+          <div class="contact__left-img">
+            <img src="img/tablets.png" alt="tablets">
+          </div>
+          <img src="img/mobile/bg.png" alt="tablets" class="contact__left-img_mobile">
+          <span class="contact__span contact__span-second">ECO</span>
+        </div> <!-- contact__left -->
+        <div class="contact__right">
+          <form class="form" action="#">
+              <div class="form__header">
+                <h3>Сделай шаг<br> к выздоровлению</h3>
+              </div>
+              <div class="form__items">
+                <label class="form__label" for="name">
+                  Ваше <span class="form__label form__label_green">имя</span>
+                </label>
+                <input type="text" id="name" name="name" class="input__field input__field-name" placeholder="Алексей"><br>
+                <label class="form__label" for="phone">
+                  Ваш <span class="form__label form__label_green">телефон</span>
+                </label>
+                <div class="form__info">
+                  <input type="tel" id="phone" name="phone" class="input__field input__field-phone" placeholder="+7 (123) 456 78-90">
+                  <div class="form__select-wrapper">
+                    <select class="form__select" name="country">
+                    <option value="ru">
+                      RU
+                    </option>
+                  </select>
+                  </div>
+                </div>
+                <button class="form__btn">
+                  Заказать<img src="img/arrow.svg" alt="arrow">
+                </button>
+              </div>
+            </form>
+        </div> <!-- contact__right -->
+        
+      </div> <!-- contact__inner -->
+    </div> <!-- container -->
+  </div>
+
+  <footer class="footer">
+      <div class="footer__inner">
+          <span class="footer__span footer__span_left">Trusted</span>
+          <img src="img/mobile/lock.svg" alt="lock">
+          <span class="footer__span footer__span_right">Secure</span>
+        </div>
+  </footer>
+
+</body>
+</html>
